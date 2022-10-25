@@ -1,0 +1,22 @@
+[
+    {
+      "id": "01",
+      "name": "Programming Languages"
+    },
+    {
+      "id": "02",
+      "name": "Front End Web Development"
+    },
+    {
+      "id": "03",
+      "name": "Backend Web Development"
+    },
+    {
+      "id": "04",
+      "name": "Game Development"
+    },
+    {
+      "id": "05",
+      "name": "All Courses"
+    }
+  ]
