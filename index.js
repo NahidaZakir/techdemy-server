@@ -5,12 +5,17 @@ const port = process.env.PORT || 5000;
 const cors = require('cors');
 
 app.use(cors());
-const categories = require('./data/catgories.json');
+const categories = require('./data/categories.json');
 const courses = require('./data/course.json');
 app.get('/', (req, res) => {
-    res.send('News Api running')
+    res.send('Courses Api running')
 })
-
+app.get('/course', (req, res) => {
+    res.send(courses);
+})
+app.get('/categories', (req, res) => {
+    res.send(categories);
+})
 app.get('/category/:id', (req, res) => {
     const id = req.params.id;
     if (id === '05') {
@@ -22,19 +27,14 @@ app.get('/category/:id', (req, res) => {
     }
 
 })
-
-app.get('/course', (req, res) => {
+app.get('/courses', (req, res) => {
     res.send(courses);
 })
 
-app.get('/course-categories', (req, res) => {
-    res.send(categories);
-})
-  
 
 
 app.listen(port, () => {
-    console.log(`Dragon news serrver on port ${port}`)
+    console.log(`Techdemy server on port ${port}`)
   })
 
 
