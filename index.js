@@ -8,6 +8,7 @@ app.use(cors());
 const categories = require('./data/categories.json');
 const courses = require('./data/course.json');
 const blogs = require('./data/blog.json');
+const questions = require('./data/ques.json');
 app.get('/', (req, res) => {
     res.send('Courses Api running')
 })
@@ -35,7 +36,9 @@ app.get('/courses/:id', (req, res) => {
 app.get('/blogs', (req, res) => {
     res.send(blogs);
 })
-
+app.get('/faq', (req, res) => {
+    res.send(questions);
+})
 
 
 app.listen(port, () => {

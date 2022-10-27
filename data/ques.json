@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "question": "How to Sign up With Techdemy and Log in (on a Browser)",
+        "answer": "Click Sign Up at the top right of your desktop or laptop browser. Enter your name, your email address, and a unique password.Select whether you wish to receive promotional emails and recommendations from Udemy. Click Sign up."
+    },
+    {
+        "id": "2",
+        "question": "Creating and Editing Your Profile",
+        "answer": "To edit your profile bio, simply type in your first and last name, your headline, and what you want your biography to say. Next, click Save at the bottom of the page. To upload (or edit) your profile picture, click Photo on the left-hand side of your Profile page. Then choose an image from your computer to upload. Once it is uploaded, you can crop it, if necessary, and then click Save."
+    },
+    {
+        "id": "3",
+        "question": "How to Troubleshoot Audio & Video Issues (on a Browser)",
+        "answer": "1. Try watching the original lecture in an incognito window. 2. If the video plays without issue, try checking your extension, plugin or firewall program on your device to see if it needs to be reconfigured or disabled.3. If you’re encountering the issue while watching the video on your company’s network, try watching the video on a non-company network instead. If you’re able to watch the video without any issue, please report the issue to your company’s IT team. 4. Try a different browser. If you’re not already using Google Chrome, we recommend using it, as we’ve found it works best to watch Udemy courses. 5. Clear your browser's cookies and cache and restart it before trying again. 6. If you have a lot of browser tabs open, close most of them except the one you’re using to watch the course. 7. Check your browser version and update it if needed. "
+    },
+    {
+        "id": "4",
+        "question": "How to Download Your Certificate of Completion (on a Browser)",
+        "answer": "1. When all the curriculum items of a course have been completed, the trophy above the course player will change color, and you will see a notification indicating the certificate of completion is ready. 2. Click on the trophy to view the certificate. Certificates can be saved as a .pdf or .jpg file so that you can easily share your accomplishment. In addition, certificates can be shared on Facebook, Twitter, and LinkedIn directly from Udemy. "
+    }
+]
