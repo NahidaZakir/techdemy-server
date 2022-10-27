@@ -7,6 +7,7 @@ const cors = require('cors');
 app.use(cors());
 const categories = require('./data/categories.json');
 const courses = require('./data/course.json');
+const blogs = require('./data/blog.json');
 app.get('/', (req, res) => {
     res.send('Courses Api running')
 })
@@ -31,7 +32,9 @@ app.get('/courses/:id', (req, res) => {
     const selectedCourse = courses.find(course => course.id === s_id);
     res.send(selectedCourse);
 })
-
+app.get('/blogs', (req, res) => {
+    res.send(blogs);
+})
 
 
 
